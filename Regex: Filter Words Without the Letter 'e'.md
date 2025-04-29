@@ -1,5 +1,4 @@
-# Regex in Python: Filter Words Without the Letter 'e'
-
+# Regex in Python: One upper case letter followed by lower case letters.
 ## 🎯 Aim :
 To write a Python program to find sequences where one uppercase letter is followed by one or more lowercase letters in a given string.
 ## 🧠 Algorithm :
