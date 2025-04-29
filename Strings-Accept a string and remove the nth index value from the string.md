@@ -1,22 +1,33 @@
-# Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
+ ## List-To create a list with even numbers upto N.
 
 ## 🎯 Aim
-To write a Python program that accepts a string and removes the character at a specified index.
+To write a Python function that accepts an integer N and generates a list of even numbers up to (but not including) N.
 
 ## 🧠 Algorithm
-1. Define a function named `remove` that takes the input string as an argument.
-2. Read the index `n` from the user input.
-3. Initialize an empty string `a` to store the new string.
-4. Iterate over each index of the string using a `for` loop.
-5. Check if the current index `i` is not equal to `n`.
-6. If `i != n`, append the character at index `i` to string `a`.
-7. After the loop, return the modified string `a`.
-8. Print the final result.
+1.Start the program.
 
-## 💻 Program
-Add Code Here
+2.Define a function createlist(N) that takes one parameter N.
 
-## Output
+3.Use a for loop with range(2, N, 2) to generate even numbers starting from 2 up to (but not including) N.
 
-## Result
+4.Store the even numbers in a list.
+
+5.Print the list of even numbers.
+
+6.End the program.
+
+## 💻 Program :
+```.py
+def createlist(num):
+    list1=[]
+    for i in range(2,num,2):
+        list1.append(i)
+    print(list1)
+```
+
+
+## Output :
+![image](https://github.com/user-attachments/assets/55ffee58-98dd-4076-baf9-9c1f9ad6a4a5)
+
+## Result :
+The program successfully generates and prints a list of even numbers less than the given number N.
